@@ -1,5 +1,149 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  padding: 10px;
+  font-family: 'IBM Plex mono', sans-serif;
+  background-color: #000028;
+  background-image: url(../images/cover-image-dark.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*overflow: hidden;*/
+}
+
+.header {
+  display: grid;
+  justify-content: end;
+  justify-items: end;
+  gap: 40.5px;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 25.036px;
+  height: 25.002px;
+  border-top: 1px solid var(--accent-color);
+  border-right: 1px solid var(--accent-color);
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 25.038px;
+  height: 24.999px;
+  border-bottom: 1px solid var(--accent-color);
+  border-left: 1px solid var(--accent-color);
+}
+
+.header__rec-light {
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FF0070;
+  margin-right: 28px;
+}
+
+.header__rec-light::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 42px;
+  width: 9px;
+  height: 9px;
+  box-shadow: 0 0 4px 2px var(--accent-color);
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+
+.header__theme-menu-button {
+  width: 70px;
+  height: 26px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: lowercase;
+  text-align: center;
+  color: var(--accent-color);
+  border: none;
+  background: none;
+}
+
+.header__theme-menu-button_active {
+  border: 1px solid var(--accent-color);
+}
+
+.header__section {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+  margin-top: 26px;
+  margin-bottom: 66px;
+}
+
+.header__section-title {
+  color: #DB00FF;
+  text-shadow: 4px 4px 0 var(--accent-color);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 82.5%;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+}
+
+.title_decor {
+  color: #FF0070;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.main {
+  margin-top: 62.5px;
+}
+
+.main_section {
+
+}
+
+.main_section-list {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.title_decor_with_background {
+  color: #000028;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  background: #FF0070;
+}
+
+.main__section-title {
+  display: grid;
+  column-gap: 40px;
+}
+
+
+.main__section-paragraph {
+  color: #F1B2CE;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
 }
