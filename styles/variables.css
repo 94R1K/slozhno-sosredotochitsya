@@ -1,7 +1,13 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
 :root {
     --accent-color: #ff0070;
+    --hover-color: #ff007066;
+    --additional-accent-color: #db00ff;
+    --primary-color: #000028;
+    --text-color: #f1b2ce;
+    --display-rec: none;
+    --general-padding: 10px;
+    --font-size: 18px;
+    --page-gap: 40px;
+    --main-gap: 50px;
+    --images-gap: 10px;
 }
