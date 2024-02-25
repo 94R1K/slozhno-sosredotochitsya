@@ -1,4 +1,10 @@
 .page.theme_dark {
-  --display-rec: block;
-
+  --accent-color: #ff0070;
+  --hover-color: #ff007066;
+  --additional-title-color: #ff0070;
+  --additional-accent-color: #db00ff;
+  --background-color: #000028;
+  --primary-color: #000028;
+  --title-decor-background: #ff0070;
+  --text-color: #f1b2ce;
 }
