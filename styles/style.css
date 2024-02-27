@@ -156,7 +156,7 @@
 }
 
 .main__content-subtitle {
-  block-size: 23px;
+  min-block-size: 23px;
 }
 
 .main__content-subtitle:not(:last-child) {
