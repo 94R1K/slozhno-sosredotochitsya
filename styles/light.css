@@ -18,6 +18,11 @@
 }
 
 @media (prefers-color-scheme: light) {
+  @media (min-width: 1024px) {
+    :root {
+      --additional-title-color: #ff0070;
+    }
+  }
   :root {
     --accent-color: #353430;
     --hover-color: #32312D66;
