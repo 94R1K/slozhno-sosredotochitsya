@@ -190,7 +190,7 @@
 
 .main__content-images {
   display: grid;
-  gap: var(--images-gap, 10px);
+  gap: var(--images-gap, 5px);
 }
 
 .main__content-images-elements {
@@ -255,14 +255,15 @@
     --general-padding: 20px;
     --page-gap: 60px;
     --main-gap: 80px;
-    --images-gap: 20px;
+    --images-gap: 21px;
   }
 
   .header__theme-menu {
-    margin-block-start: 146px;
+    margin-block-start: 172px;
   }
 
   .header__title {
+    margin-inline-start: -20px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
@@ -314,6 +315,9 @@
 }
 
 @media (min-width: 1024px) {
+  :root.theme_light  {
+    --additional-title-color: #ff0070;
+  }
   .header__theme-menu {
     justify-self: center;
     margin-block-start: 0;
@@ -340,10 +344,6 @@
   .main__content:nth-of-type(2) .main__article-content {
     grid-column: span 1;
     grid-row: 2 / 3;
-  }
-
-  .main__content:nth-of-type(3) .main__content-subtitle:not(:last-child) {
-    margin-block-end: 20px;
   }
 
   .main__content-images {
