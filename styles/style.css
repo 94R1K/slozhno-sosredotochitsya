@@ -315,9 +315,10 @@
 }
 
 @media (min-width: 1024px) {
-  :root.theme_light  {
+  :root.theme_light {
     --additional-title-color: #ff0070;
   }
+
   .header__theme-menu {
     justify-self: center;
     margin-block-start: 0;
