@@ -136,14 +136,10 @@
   padding-right: var(--general-padding, 10px);
 }
 
-/*.main__content-list {*/
-/*  display: grid;*/
-/*  gap: var(--main-gap, 50px);*/
-/*}*/
-
 .title_decor_with_background {
   color: var(--primary-color, #000028);
   font-style: normal;
+  font-size: var(--font-size, 18px);
   font-weight: 700;
   line-height: 130%;
   background: var(--title-decor-background, #ff0070);
